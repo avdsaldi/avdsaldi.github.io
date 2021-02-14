@@ -29,10 +29,11 @@ logo                     : "/assets/images/logo.png" # path of logo image to dis
 masthead_title           : "SumChip diary" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
+
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : "https://avdsaldi-github-io.disqus.com/" # "https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "avdsaldi-github-io" # "https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook: 
