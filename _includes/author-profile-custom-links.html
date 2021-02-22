@@ -5,3 +5,8 @@
     </a>
   </li>
 -->
+{% if author.Amazing %}
+        <li>
+          <i class="fas fa-fw fa-smile-wink" aria-hidden="true"></i> <span itemprop="subjectOf">{{ author.Amazing }}</span>
+        </li>
+{% endif %}
