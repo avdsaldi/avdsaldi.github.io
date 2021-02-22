@@ -1,4 +1,6 @@
 User-agent: *
-Allow: /
+Allow: /$
+Disallow: /
+
 
 Sitemap: https://eona1301.github.io/sitemap.xml
