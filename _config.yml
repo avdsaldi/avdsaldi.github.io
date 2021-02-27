@@ -15,6 +15,7 @@ remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "custom" # "air", "aqua", "contrast", "dirt" , "dark", "neon", "mint", "plum", "sunrise", "default"
 
 # Site Settings
+cover                    : "/assets/images/header_image.jpg"
 locale                   : "ko"
 title                    : "SumChip Diary"
 title_separator          : "|"

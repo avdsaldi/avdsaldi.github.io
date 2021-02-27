@@ -4,6 +4,20 @@ layout: archive
 
 {{ content }}
 
+<div class=cover_main>
+	
+
+	<div class="site-header-container {% if site.cover %}has-cover{% endif %}" {% if site.cover %}style="background-image: url({{ site.cover | prepend: site.baseurl }});"{% endif %}>
+	  <div class="scrim {% if site.cover %}has-cover{% endif %}">
+		<header class="site-header">
+		  <h1 class="title">{{ site.title }}</h1>
+		  {% if site.subtitle %}<h6 class="subtitle">{{ site.subtitle }}</p>{% endif %}
+		</header>
+	  </div>
+	</div>
+</div>
+
+
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
 {% if paginator %}
