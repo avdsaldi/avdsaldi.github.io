@@ -17,10 +17,13 @@
     padding-right: $right-sidebar-width;
   }
 }
+
+//메인 이미지
 .cover_main{
 	display: table;
 	width:100%;
    .site-header-container{
+	   color: $highlight-color;
 	   display:table-cell;
 	   position:relative;
 	   box-sizing: inherit;
