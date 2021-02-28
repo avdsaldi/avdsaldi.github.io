@@ -6,8 +6,12 @@ main:
     url: /about/
   - title: "Categories"
     url: /categories/
-  - title: "Test"
-    url: /test/
+  - title: "Baekjon"
+    url: /baekjon/
+  - title: "Security_Project"
+    url: /security_project/
+  - title: "Chat"
+    url: /chat/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"

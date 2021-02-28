@@ -1,8 +1,7 @@
 ---
 title:  "이미지 가운데 넣는 시행착오"
 date:   2021-02-26T14:25:52-05:00
-author: Taeyang Kim
-categories: test
+categories: chat
 ---
 
 # 오늘 만든 내용

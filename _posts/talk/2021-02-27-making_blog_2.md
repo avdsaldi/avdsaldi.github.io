@@ -1,8 +1,8 @@
 ---
 title:  "이미지에 색상 넣기"
 date:   2021-02-27T14:25:52-05:00
-author: Taeyang Kim
-categories: test
+categories: chat
+tags: chats
 ---
 
 # 오늘 만든 내용
