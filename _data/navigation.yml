@@ -7,11 +7,11 @@ main:
   - title: "Categories"
     url: /categories/
   - title: "Baekjon"
-    url: /baekjon/
+    url: /category_baekjon/
   - title: "Security_Project"
     url: /security_project/
   - title: "Chat"
-    url: /chat/
+    url: /category_chat/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
