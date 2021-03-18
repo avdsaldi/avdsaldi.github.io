@@ -6,13 +6,14 @@ main:
     url: /about/
   - title: "Categories"
     url: /categories/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
+docs:
   - title: "Baekjon"
     url: /category_baekjon/
   - title: "Security_Project"
     url: /security_project/
   - title: "Chat"
     url: /category_chat/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/

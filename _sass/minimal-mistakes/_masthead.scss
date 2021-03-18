@@ -4,8 +4,23 @@
 
 .masthead {
 
-  position: relative;
-  border-bottom: 1px solid $border-color;
+  position: fixed; //relative;
+  top:0; //custom
+  width:100%; //custom
+  height:50px; //custom
+  background-color:$menu-color; //custom
+  @include breakpoint($medium) {
+    height:54px;
+  }
+
+  @include breakpoint($large) {
+    height:60px;
+  }
+
+  @include breakpoint($x-large) {
+    height:70px;
+  }
+  border-bottom: 1px solid $menu-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.15s;
