@@ -89,6 +89,9 @@ $behance-color: #1769ff !default;
 $bitbucket-color: #205081 !default;
 $dribbble-color: #ea4c89 !default;
 $facebook-color: #3b5998 !default;
+$bc-color: #f4a11e !default;
+$reddit-color: #ff4500 !default;
+$naver-color: #2db400 !default;
 $flickr-color: #ff0084 !default;
 $foursquare-color: #0072b1 !default;
 $github-color: #171516 !default;
@@ -151,9 +154,9 @@ $max-width: $x-large !default;
    Grid
    ========================================================================== */
 
-$right-sidebar-width-narrow: 200px !default;
-$right-sidebar-width: 300px !default;
-$right-sidebar-width-wide: 400px !default;
+$right-sidebar-width-narrow: 150px !default;
+$right-sidebar-width: 200px !default;
+$right-sidebar-width-wide: 250px !default;
 
 /*
    Other

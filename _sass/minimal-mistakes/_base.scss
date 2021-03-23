@@ -14,19 +14,7 @@ body {
   color: $text-color;
   font-family: $global-font-family;
   line-height: 1.5;
-  padding: 40px 0 0;
-  @include breakpoint($medium) {
-    padding: 54px 0 0;
-  }
-
-  @include breakpoint($large) {
-    padding: 60px 0 0;
-  }
-
-  @include breakpoint($x-large) {
-    padding: 70px 0 0;
-  }
-
+  padding: 3.5em 0 0;//custom
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
     overflow: hidden;
