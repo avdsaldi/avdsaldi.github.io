@@ -1,0 +1,8 @@
+Sitemap: https://eona1301.github.io/sitemap.xml
+
+user-agent : *
+Disallow: /assets/
+
+
+User-agent: *
+Crawl-delay: 1

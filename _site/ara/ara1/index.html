@@ -1,0 +1,802 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.22.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="ko" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>[유닉스고급] 01 간단한 쉘스트립트 과제 | SunChip Diary</title>
+<meta name="description" content="과제 내용 : 01 간단한 쉘스크립트 유닉스고급(쉘스크립트)">
+
+
+  <meta name="author" content="Taeyang Kim">
+  
+  <meta property="article:author" content="Taeyang Kim">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="ko">
+<meta property="og:site_name" content="SunChip Diary">
+<meta property="og:title" content="[유닉스고급] 01 간단한 쉘스트립트 과제">
+<meta property="og:url" content="http://0.0.0.0:4000/ara/ara1/">
+
+
+  <meta property="og:description" content="과제 내용 : 01 간단한 쉘스크립트 유닉스고급(쉘스크립트)">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2022-09-04T22:25:52+09:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://0.0.0.0:4000/ara/ara1/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Taeyang Kim",
+      "url": "http://0.0.0.0:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="SunChip Diary Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/logo.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          SunChip diary
+          <span class="site-subtitle">version 0.2</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/">Categories</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">메뉴</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/images/profile.jpg" alt="Taeyang Kim" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Taeyang Kim</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Bucheon College</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">팔로우</button>
+    <ul class="author__urls social-icons">
+     <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+
+        <li>
+          <i class="fas fa-fw fa-smile-wink" aria-hidden="true"></i> <span itemprop="subjectOf">Amazing</span>
+        </li>
+
+
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">South Korea</span>
+        </li>
+      
+	
+      
+        
+          
+            <li><a href="avdsaldi@naver.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/avdsaldi" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+	
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+    </ul>
+  </div>
+</div>
+
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">메뉴</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <a href="/category_baekjon/"><span class="nav__sub-title">Baekjon</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/security_project/"><span class="nav__sub-title">Security_Project</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/category_chat/"><span class="nav__sub-title">Chat</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/category_ara/"><span class="nav__sub-title">Ara</span></a>
+        
+
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="[유닉스고급] 01 간단한 쉘스트립트 과제">
+    <meta itemprop="description" content="과제 내용 : 01 간단한 쉘스크립트유닉스고급(쉘스크립트)">
+    <meta itemprop="datePublished" content="2022-09-04T22:25:52+09:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">[유닉스고급] 01 간단한 쉘스트립트 과제
+</h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <time datetime="2022-09-04T22:25:52+09:00">September 4, 2022</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>과제 내용 : <a href="http://ara.bc.ac.kr/entry/01-%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%89%98%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8?category=28">01 간단한 쉘스크립트</a>
+유닉스고급(쉘스크립트)</p>
+
+<p>김태양
+1834041</p>
+
+<h3 id="0-해야-할일">0. 해야 할일</h3>
+<ul>
+  <li>센토스 설치</li>
+  <li>런레벨 다운 및 ssh 설정</li>
+  <li>.bashrc 설정</li>
+</ul>
+
+<h2 id="1-centos-설치">1. Centos 설치</h2>
+
+<p>VMwara 설치 파일 다운로드 : <a href="https://www.vmware.com/kr/products/workstation-player.html">VM</a></p>
+
+<p>Centos 설치 파일 다운로드 : <a href="https://www.centos.org/download/">centos</a></p>
+
+<p>먼저 위의 vm웨어를 설치하고 및 centos의 iso를 다운 받습니다.
+“create a new virtual machine”를 선택합니다.
+이후 typical를 클릭 한뒤 install 부분에서 browse를 선택 후에 아까 다운받은 centos iso를 선택합니다.
+이후 메모리 1기가 프로세스 1개 하드디스크 20기가로 정합니다.</p>
+
+<p><img src="/assets/ara/01/b1.PNG" alt="test1" width="40%" height="40%" />
+<img src="/assets/ara/01/b13.PNG" alt="test2" width="40%" height="40%" />
+<img src="/assets/ara/01/b2.PNG" alt="test3" width="80%" height="80%" /></p>
+
+<p>다음에 완성된 컨테이너를 완성시킨뒤에 
+컨테이너를 실행시킵니다.
+이후 create user 부분에서 미리 아이디와 비번을 생성합니다.</p>
+
+<p><img src="/assets/ara/01/b4.PNG" alt="test" width="80%" height="80%" /></p>
+
+<p>미리 생성될 계정의 이름과 패스워드를 정했다면 하단의 다운로드가 완료되서 재부팅 되기까지 기다립니다.</p>
+
+<p><img src="/assets/ara/01/b6.PNG" alt="test" width="80%" height="80%" /></p>
+
+<p>완료되면 위와 같이 바탕화면이 나오면 centos 설치 완료!</p>
+
+<h2 id="2-centos-런레벨-설정-및-ssh-확인">2. centos 런레벨 설정 및 ssh 확인</h2>
+
+<p>먼저 시스템의 기본 런레벨이 무엇인지 확인해야 한다.</p>
+
+<p><img src="/assets/ara/01/b5.PNG" alt="test" width="80%" height="80%" />
+<img src="/assets/ara/01/b6-1.PNG" alt="test" width="80%" height="80%" /></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>systemctl get-default	#시스템 디폴트 런레벨 확인
+sudo systemctl set-default multi-user.target #시스템 디폴트 런레벨을 멀티 유저로 변경
+</code></pre></div></div>
+<p>위와 같은 명령어를 사용하게 될 경우 시스템 자체의 기본 레벨을 변경 시킬수가 있다.
+원래대로 그래픽 모드로 변경하고 싶다면 set-default에 인자를
+multi-user.target =&gt; graphical.target
+로 변경하면 됩니다.</p>
+
+<p><img src="/assets/ara/01/b7.PNG" alt="test" width="80%" height="80%" /></p>
+
+<p>재부팅 후에 런레벨이 잘 변경 되어있는지 확인하는 화면</p>
+
+<p><img src="/assets/ara/01/b8.PNG" alt="test" width="80%" height="80%" /></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>systemctl status sshd	# sshd가 설치 및 작동하는지 확인하는 명령어
+ # 'Active : active(running)' 라고 되어있으면 작동하고 있는중
+</code></pre></div></div>
+<p>마지막으로 접근할 시스템의 아이피를 확인하고 putty로 접근한다.</p>
+
+<p><img src="/assets/ara/01/b9.PNG" alt="test" width="80%" height="80%" /></p>
+
+<p>putty로 로그인하여 접근이 잘 되는지 확인하는 화면</p>
+
+<h2 id="3-bashrc-설정">3. .bashrc 설정</h2>
+
+<p>전체 .bashrc를 설정하기 위해서
+‘vi /etc/bashrc’ 로 접근합니다.</p>
+
+<p><img src="/assets/ara/01/b10.PNG" alt="test" width="80%" height="80%" /></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PS1='[$PWD \!]\$'
+alias ds='ls -lF'
+alias cls='clear'
+alias his='history'
+</code></pre></div></div>
+<p>위에 내용을 bashrc 파일에 추가해줍니다.</p>
+
+<p><img src="/assets/ara/01/b11.PNG" alt="test" width="80%" height="80%" />
+<img src="/assets/ara/01/b12.PNG" alt="test" width="80%" height="80%" /></p>
+
+<p>추가되었는지 요약된 명령어를 실행시키는 화면</p>
+
+<h1 id="4-후기">4. 후기</h1>
+
+<p>과제 내용이 설치 및 기본 설정이라 간단하였지만
+용량이 항상 많이 차지하여 늘 불편하다ㅜㅜ</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> 카테고리: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#ara" class="page__taxonomy-item" rel="tag">ara</a>
+    
+    </span>
+  </p>
+
+
+        
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 업데이트:</strong> <time datetime="2022-09-04T22:25:52+09:00">September 4, 2022</time></p>
+
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">공유하기</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=%5B%EC%9C%A0%EB%8B%89%EC%8A%A4%EA%B3%A0%EA%B8%89%5D+01+%EA%B0%84%EB%8B%A8%ED%95%9C+%EC%89%98%EC%8A%A4%ED%8A%B8%EB%A6%BD%ED%8A%B8+%EA%B3%BC%EC%A0%9C%20http%3A%2F%2F0.0.0.0%3A4000%2Fara%2Fara1%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F0.0.0.0%3A4000%2Fara%2Fara1%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+<a href="https://www.reddit.com/submit?url=/ara/ara1/&title=[유닉스고급] 01 간단한 쉘스트립트 과제" class="btn btn--reddit" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Reddit"><i class="fab fa-fw fa-reddit" aria-hidden="true"></i><span> Reddit</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/chat/whatidoing/" class="pagination--pager" title="21.03.18_To_Do
+">이전</a>
+    
+    
+      <a href="/ara/ara2/" class="pagination--pager" title="[유닉스고급] 02 쉘 스크립트 초급
+">다음</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">참고</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/header_image.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/security_project/dummy/" rel="permalink">보안_한글 테스트
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <time datetime="2023-03-02T04:25:52+09:00">March 2, 2023</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">한글 테스트
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/header_image.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ara/ara9/" rel="permalink">[유닉스고급] 12 10장 시스템관리 쉘스크립트
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <time datetime="2022-10-01T22:25:52+09:00">October 1, 2022</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">과제 내용 : 12 10장 시스템관리 쉘스크립트
+유닉스고급(쉘스크립트)
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/header_image.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ara/ara9/" rel="permalink">[유닉스고급] 10 9장 쉘스크립트 실무
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <time datetime="2022-10-01T22:25:52+09:00">October 1, 2022</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">과제 내용 : 10 9장 쉘스크립트 실무
+유닉스고급(쉘스크립트)
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/header_image.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ara/ara6/" rel="permalink">[유닉스고급] 09 8장 쉘스크립트 중급
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <time datetime="2022-10-01T22:25:52+09:00">October 1, 2022</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">과제 내용 : 09 8장 쉘스크립트 중급
+유닉스고급(쉘스크립트)
+
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="검색어를 입력하세요..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>팔로우:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/avdsaldi" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+   <!-- 
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> 피드</a></li>
+     -->
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Taeyang Kim.  All Rights Reserved<!-- Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>. --></div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "http://0.0.0.0:4000/ara/ara1/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/ara/ara"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://avdsaldi-github-io.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+
+
+  </body>
+</html>

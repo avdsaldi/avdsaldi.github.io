@@ -1,0 +1,48 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+// custom css
+//$sans-serif: -apple-system, BlinkMacSystemFont, "Gentium Book Basic";
+$type-size-4-5: 1.12em !default; // Ubuntu Mono is a bit small
+// custom end
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+// custom css
+@import url(https://fonts.googleapis.com/css?family=Nanum+Pen+Scrip|Ubuntu+Mono|Gentium+Book+Basic);
+
+html {
+  /* apply a natural box layout model to all elements */
+  box-sizing: border-box;
+  background-color: $background-color;
+  font-size: 14px;
+
+  @include breakpoint($medium) {
+    font-size: 16px;
+  }
+
+  @include breakpoint($large) {
+    font-size: 18px;
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 20px;
+  }
+
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+.highlight {
+  font-family: $monospace;
+  font-size: $type-size-4-5;
+}
+
+.language-plaintext {
+  font-family: $monospace;
+  font-size: $type-size-5;
+  background: #f05454; //#c0ffee;
+}

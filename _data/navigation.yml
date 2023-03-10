@@ -1,0 +1,21 @@
+# main links
+main:
+  # - title: "Quick-Start Guide"
+  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "About"
+    url: /about/
+  - title: "Categories"
+    url: /categories/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
+docs:
+  - title: "Baekjon"
+    url: /category_baekjon/
+  - title: "Security_Project"
+    url: /security_project/
+  - title: "Chat"
+    url: /category_chat/
+  - title: "Ara"
+    url: /category_ara/
