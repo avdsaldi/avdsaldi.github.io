@@ -1,65 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2023-03-10T17:18:54+09:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">SunChip Diary</title><subtitle>always start blog</subtitle><author><name>Taeyang Kim</name></author><entry><title type="html">보안_한글 테스트</title><link href="http://0.0.0.0:4000/security_project/dummy/" rel="alternate" type="text/html" title="보안_한글 테스트" /><published>2023-03-02T04:25:52+09:00</published><updated>2023-03-02T04:25:52+09:00</updated><id>http://0.0.0.0:4000/security_project/dummy</id><content type="html" xml:base="http://0.0.0.0:4000/security_project/dummy/">&lt;p&gt;한글 테스트1&lt;/p&gt;
-
-&lt;p&gt;하나
-둘
-셋&lt;/p&gt;
-
-&lt;p&gt;(1절)
-동해물과 백두산이 마르고 닳도록
-하느님이 보우하사 우리나라만세
-(후렴)무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세&lt;/p&gt;
-
-&lt;p&gt;(2절)
-남산위에 저 소나무 철갑을 두른듯
-바람서리 불변함은 우리기상 일세
-(후렴)무궁화 삼천리 화려강산 대한사람 대한으로 길이보전하세&lt;/p&gt;
-
-&lt;p&gt;(3절)
-가을하늘 공활한데 높고 구름없이 
-밝은달은 우리가슴 일편단심일세
-(후렴)무궁화 삼천리 화려강산 대한사람 대한으로 길이보전하세&lt;/p&gt;
-
-&lt;p&gt;(4절)
-이 기상과 이 맘으로 충성을 다하여
-괴로우나 즐거우나 나라사랑하세
-(후렴)무궁화 삼천리 화려강산 대한사람 대한으로 길이보전하세&lt;/p&gt;
-
-&lt;p&gt;가나다라마바사아자차카타파하
-ㄱㄴㄷㄻㅄㅇㅈㅊㅋㅌㅍㅎ
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-abcdefghijklmnopqrstuvwxyz
-가나다라마바사아자차카타파하
-ㄱㄴㄷㄻㅄㅇㅈㅊㅋㅌㅍㅎ
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-abcdefghijklmnopqrstuvwxyz
-가나다라마바사아자차카타파하
-ㄱㄴㄷㄻㅄㅇㅈㅊㅋㅌㅍㅎ
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-abcdefghijklmnopqrstuvwxyz
-가나다라마바사아자차카타파하
-ㄱㄴㄷㄻㅄㅇㅈㅊㅋㅌㅍㅎ
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-abcdefghijklmnopqrstuvwxyz
-가나다라마바사아자차카타파하
-ㄱㄴㄷㄻㅄㅇㅈㅊㅋㅌㅍㅎ
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-abcdefghijklmnopqrstuvwxyz
-가나다라마바사아자차카타파하
-ㄱㄴㄷㄻㅄㅇㅈㅊㅋㅌㅍㅎ
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-abcdefghijklmnopqrstuvwxyz
-가나다라마바사아자차카타파하
-ㄱㄴㄷㄻㅄㅇㅈㅊㅋㅌㅍㅎ
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-abcdefghijklmnopqrstuvwxyz
-가나다라마바사아자차카타파하
-ㄱㄴㄷㄻㅄㅇㅈㅊㅋㅌㅍㅎ
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-abcdefghijklmnopqrstuvwxyz
-가나다라마바사아자차카타파하
-ㄱㄴㄷㄻㅄㅇㅈㅊㅋㅌㅍㅎ
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-abcdefghijklmnopqrstuvwxyz&lt;/p&gt;</content><author><name>Taeyang Kim</name></author><category term="security_project" /><summary type="html">한글 테스트1</summary></entry><entry><title type="html">[유닉스고급] 05 4장 문자열 검색 명령어</title><link href="http://0.0.0.0:4000/ara/ara4/" rel="alternate" type="text/html" title="[유닉스고급] 05 4장 문자열 검색 명령어" /><published>2022-10-01T22:25:52+09:00</published><updated>2022-10-01T22:25:52+09:00</updated><id>http://0.0.0.0:4000/ara/ara4</id><content type="html" xml:base="http://0.0.0.0:4000/ara/ara4/">&lt;p&gt;과제 내용 : &lt;a href=&quot;http://ara.bc.ac.kr/entry/05-4%EC%9E%A5-%EB%AC%B8%EC%9E%90%EC%97%B4-%EA%B2%80%EC%83%89-%EB%AA%85%EB%A0%B9%EC%96%B4?category=28&quot;&gt;04 문자열 검색 명령어&lt;/a&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2023-05-28T14:17:59+09:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">SunChip Diary</title><subtitle>always start blog</subtitle><author><name>Taeyang Kim</name></author><entry><title type="html">[유닉스고급] 05 4장 문자열 검색 명령어</title><link href="http://0.0.0.0:4000/ara/ara4/" rel="alternate" type="text/html" title="[유닉스고급] 05 4장 문자열 검색 명령어" /><published>2022-10-01T22:25:52+09:00</published><updated>2022-10-01T22:25:52+09:00</updated><id>http://0.0.0.0:4000/ara/ara4</id><content type="html" xml:base="http://0.0.0.0:4000/ara/ara4/">&lt;p&gt;과제 내용 : &lt;a href=&quot;http://ara.bc.ac.kr/entry/05-4%EC%9E%A5-%EB%AC%B8%EC%9E%90%EC%97%B4-%EA%B2%80%EC%83%89-%EB%AA%85%EB%A0%B9%EC%96%B4?category=28&quot;&gt;04 문자열 검색 명령어&lt;/a&gt;
 유닉스고급(쉘스크립트)&lt;/p&gt;
 
 &lt;p&gt;김태양
@@ -577,7 +516,154 @@ alias his='history'
 &lt;h1 id=&quot;4-후기&quot;&gt;4. 후기&lt;/h1&gt;
 
 &lt;p&gt;과제 내용이 설치 및 기본 설정이라 간단하였지만
-용량이 항상 많이 차지하여 늘 불편하다ㅜㅜ&lt;/p&gt;</content><author><name>Taeyang Kim</name></author><category term="ara" /><summary type="html">과제 내용 : 01 간단한 쉘스크립트 유닉스고급(쉘스크립트)</summary></entry><entry><title type="html">21.03.18_To_Do</title><link href="http://0.0.0.0:4000/chat/whatidoing/" rel="alternate" type="text/html" title="21.03.18_To_Do" /><published>2021-03-23T14:25:52+09:00</published><updated>2021-03-23T14:25:52+09:00</updated><id>http://0.0.0.0:4000/chat/whatidoing</id><content type="html" xml:base="http://0.0.0.0:4000/chat/whatidoing/">&lt;p&gt;bash 공부하기&lt;/p&gt;
+용량이 항상 많이 차지하여 늘 불편하다ㅜㅜ&lt;/p&gt;</content><author><name>Taeyang Kim</name></author><category term="ara" /><summary type="html">과제 내용 : 01 간단한 쉘스크립트 유닉스고급(쉘스크립트)</summary></entry><entry><title type="html">간단한 웹 크롤링</title><link href="http://0.0.0.0:4000/security_project/crawling" rel="alternate" type="text/html" title="간단한 웹 크롤링" /><published>2021-09-07T22:25:52+09:00</published><updated>2021-09-07T22:25:52+09:00</updated><id>http://0.0.0.0:4000/security_project/crawling</id><content type="html" xml:base="http://0.0.0.0:4000/security_project/crawling">&lt;p&gt;파이썬을 이용한 간단한 웹 크롤링&lt;/p&gt;
+
+&lt;h2 id=&quot;1-소스코드&quot;&gt;1. 소스코드&lt;/h2&gt;
+
+&lt;p&gt;main.py&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;from indeed import  get_jobs as get_indeed_jobs 
+from so import get_jobs as get_so_jobs
+from save import save_to_file
+
+indeed_jobs = get_indeed_jobs()
+so_jobs=get_so_jobs()
+jobs= indeed_jobs + so_jobs
+job = so_jobs
+save_to_file(jobs)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;indeed.py&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import requests
+from bs4 import BeautifulSoup
+
+LIMIT = 50
+URL = f&quot;https://kr.indeed.com/jobs?q=python&amp;amp;limit={LIMIT}&quot;
+
+
+def extract_indeed_pages():
+    result = requests.get(URL)
+    soup = BeautifulSoup(result.text, &quot;html.parser&quot;)
+    pagination = soup.find(&quot;div&quot;, {&quot;class&quot;: &quot;pagination&quot;})
+
+    links = pagination.find_all('a')
+    pages = []
+    for link in links[:-1]:
+        pages.append(int(link.string))
+
+    max_page = pages[-1]
+    return max_page
+
+
+def extract_jobs(html):
+    title = html.find(&quot;h2&quot;, {
+        &quot;class&quot;: &quot;title&quot;
+    }).find(
+        &quot;a&quot;, recursive=False)['title']
+    company = html.find(&quot;span&quot;, {&quot;class&quot;: &quot;company&quot;})
+    if company:
+        company_anchor = company.find(&quot;a&quot;)
+        if company_anchor is not None:
+            company = str(company_anchor.string)
+        else:
+            company = str(company.string)
+    else:
+        company = None
+    company = company.strip()
+    location = html.find(&quot;div&quot;, {&quot;class&quot;: &quot;recJobLoc&quot;})[&quot;data-rc-loc&quot;]
+    job_id = html[&quot;data-jk&quot;]
+    return {
+        'title': title,
+        'company': company,
+        'location': location,
+        &quot;link&quot;: f&quot;https://www.indeed.com/viewjob?jk={job_id}&quot;
+    }
+
+
+def extract_indeed_jobs(last_page):
+    jobs = []
+    for page in range(last_page):
+        print(f&quot;Scrapping indeed: page={page}&quot;)
+        result = requests.get(f&quot;{URL}&amp;amp;start={page*LIMIT}&quot;)
+        soup = BeautifulSoup(result.text, &quot;html.parser&quot;)
+        results = soup.find_all(&quot;div&quot;, {&quot;class&quot;: &quot;jobsearch-SerpJobCard&quot;})
+        for result in results:
+            job = extract_jobs(result)
+            jobs.append(job)
+    return jobs
+
+
+def get_jobs():
+    last_indeed_page = extract_indeed_pages()
+    jobs = extract_indeed_jobs(last_indeed_page)
+    return jobs
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;save.py&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import csv
+
+def save_to_file(jobs):
+  file = open(&quot;jobs.csv&quot;,mode=&quot;w&quot;)
+  writer =csv.writer(file)
+  writer.writerow([&quot;title&quot;, &quot;company&quot;,&quot;location&quot;,&quot;link&quot;])
+  for job in jobs:
+    writer.writerow(list(job.values()))
+  return
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;so.py&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import requests
+from bs4 import BeautifulSoup
+
+LIMIT = 50
+URL = f&quot;https://stackoverflow.com/jobs?q=python&amp;amp;sort=i&quot;
+
+
+def get_last_page():
+    result = requests.get(URL)
+    soup = BeautifulSoup(result.text, &quot;html.parser&quot;)
+    pages = soup.find(&quot;div&quot;, {&quot;class&quot;: &quot;s-pagination&quot;}).find_all(&quot;a&quot;)
+    last_page = pages[-2].get_text(strip=True)
+    return int(last_page)
+
+
+def extract_job(html):
+    title = html.find(&quot;h2&quot;, {&quot;class&quot;: &quot;mb4&quot;}).find(&quot;a&quot;)[&quot;title&quot;]
+    company, location = html.find(&quot;h3&quot;, {&quot;class&quot;: &quot;mb4&quot;}).find_all(&quot;span&quot;, recursive=False)
+    company = company.get_text(strip=True).strip(&quot;•&quot;).strip(&quot;\n&quot;)
+    location = location.get_text(strip=True).strip(&quot;\n&quot;)
+    job_id = html['data-jobid']
+    return {
+        'title': title,
+        'company': company,
+        'location': location,
+        'link' : f&quot;https://stackoverflow.com/jobs/{job_id}&quot;
+    }
+
+
+def extract_jobs(last_page):
+    jobs = []
+    for page in range(last_page):
+        print(f&quot;Scrapping SO: page: {page}&quot;)
+        result = requests.get(f&quot;{URL}&amp;amp;pg={page+1}&quot;)
+        soup = BeautifulSoup(result.text, &quot;html.parser&quot;)
+        results = soup.find_all(&quot;div&quot;, {&quot;class&quot;: &quot;-job&quot;})
+        for result in results:
+            job = extract_job(result)
+            jobs.append(job)
+    return jobs
+
+
+def get_jobs():
+    last_page = get_last_page()
+    jobs = extract_jobs(last_page)
+    return jobs
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;4-후기&quot;&gt;4. 후기&lt;/h1&gt;
+
+&lt;p&gt;군대에서 했던 내용이라 오래 걸렸지만 즐겁게 크롤링 하게 되었습니다.&lt;/p&gt;</content><author><name>Taeyang Kim</name></author><category term="security_project" /><summary type="html">파이썬을 이용한 간단한 웹 크롤링</summary></entry><entry><title type="html">21.03.18_To_Do</title><link href="http://0.0.0.0:4000/chat/whatidoing/" rel="alternate" type="text/html" title="21.03.18_To_Do" /><published>2021-03-23T14:25:52+09:00</published><updated>2021-03-23T14:25:52+09:00</updated><id>http://0.0.0.0:4000/chat/whatidoing</id><content type="html" xml:base="http://0.0.0.0:4000/chat/whatidoing/">&lt;p&gt;bash 공부하기&lt;/p&gt;
 
 &lt;p&gt;한글
 https://github.com/denysdovhan/bash-handbook/blob/master/translations/ko-KR/README.md

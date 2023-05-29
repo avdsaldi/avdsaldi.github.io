@@ -23,12 +23,6 @@ var store = [{
         "url": "/baekjoon/baekjoon/",
         "teaser": "/assets/images/header_image.jpg"
       },{
-        "title": "메인_한글 테스트",
-        "excerpt":"한글 테스트 하나 둘 셋 (1절) 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라만세 (후렴)무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세 (2절) 남산위에 저 소나무 철갑을 두른듯 바람서리 불변함은 우리기상 일세 (후렴)무궁화 삼천리 화려강산 대한사람 대한으로 길이보전하세 (3절) 가을하늘 공활한데 높고 구름없이 밝은달은 우리가슴 일편단심일세 (후렴)무궁화 삼천리 화려강산 대한사람 대한으로 길이보전하세...","categories": ["chat"],
-        "tags": [],
-        "url": "/chat/dummy/",
-        "teaser": "/assets/images/header_image.jpg"
-      },{
         "title": "보안_한글 테스트",
         "excerpt":"한글 테스트 하나 둘 셋 (1절) 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라만세 (후렴)무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세 (2절) 남산위에 저 소나무 철갑을 두른듯 바람서리 불변함은 우리기상 일세 (후렴)무궁화 삼천리 화려강산 대한사람 대한으로 길이보전하세 (3절) 가을하늘 공활한데 높고 구름없이 밝은달은 우리가슴 일편단심일세 (후렴)무궁화 삼천리 화려강산 대한사람 대한으로 길이보전하세...","categories": ["security_project"],
         "tags": [],
@@ -69,6 +63,12 @@ var store = [{
         "excerpt":"bash 공부하기 한글 https://github.com/denysdovhan/bash-handbook/blob/master/translations/ko-KR/README.md 영어 https://tldp.org/LDP/Bash-Beginners-Guide/html/ emerge https://wiki.gentoo.org/wiki/Handbook:X86/Working/Portage/ko 주피터 노트북이란? emacs 및 org-mode https://edykim.com/ko/post/start-with-orgmode-basics/ https://pythonq.com/so/org-babel 이것은 무엇인가? https://github.com/ipfs/ipfs https://matrix.org/blog/2019/03/12/breaking-the-100-bps-barrier-with-matrix-meshsim-coap-proxy/ QUIC, sdn /.env /owa/ 바쁘다 보니 공부에 대한 집중도가 떨어져 한번 iot 상식에 대해 알아가보려고 합니다.ㅎㅎ 운동에 집중하니 체력은 좋아지는데 공부를 자꾸 멀리하게 되네요 열심히 다시 해보겠습니다.ㅎㅎ 그리고 블로그 수정을 조금...","categories": ["chat"],
         "tags": [],
         "url": "/chat/whatidoing/",
+        "teaser": "/assets/images/header_image.jpg"
+      },{
+        "title": "간단한 웹 크롤링",
+        "excerpt":"파이썬을 이용한 간단한 웹 크롤링 1. 소스코드 main.py from indeed import get_jobs as get_indeed_jobs from so import get_jobs as get_so_jobs from save import save_to_file indeed_jobs = get_indeed_jobs() so_jobs=get_so_jobs() jobs= indeed_jobs + so_jobs job = so_jobs save_to_file(jobs) indeed.py import requests from bs4 import BeautifulSoup LIMIT = 50 URL = f\"https://kr.indeed.com/jobs?q=python&amp;limit={LIMIT}\" def...","categories": ["security_project"],
+        "tags": [],
+        "url": "/security_project/crawling",
         "teaser": "/assets/images/header_image.jpg"
       },{
         "title": "[유닉스고급] 01 간단한 쉘스트립트 과제",
@@ -117,11 +117,5 @@ var store = [{
         "excerpt":"과제 내용 : 12 10장 시스템관리 쉘스크립트 유닉스고급(쉘스크립트) 김태양 1834041 0. 해야 할일 문제 이해 해결 방법 1. 문제 이해 (1) ostype 문자열이 fedora가 되도록 다음 소스를 변경하세요. 지금 현재는 rhel fedora 문자열이 검색되는 소스입니다. $( cat /etc/*release | grep ID_LIKE | sed “s/ID_LIKE=//;s/\"//g“ ) # rhel fedora # 문자열이...","categories": ["ara"],
         "tags": [],
         "url": "/ara/ara9/",
-        "teaser": "/assets/images/header_image.jpg"
-      },{
-        "title": "보안_한글 테스트",
-        "excerpt":"한글 테스트1 하나 둘 셋 (1절) 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라만세 (후렴)무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세 (2절) 남산위에 저 소나무 철갑을 두른듯 바람서리 불변함은 우리기상 일세 (후렴)무궁화 삼천리 화려강산 대한사람 대한으로 길이보전하세 (3절) 가을하늘 공활한데 높고 구름없이 밝은달은 우리가슴 일편단심일세 (후렴)무궁화 삼천리 화려강산 대한사람 대한으로 길이보전하세...","categories": ["security_project"],
-        "tags": [],
-        "url": "/security_project/dummy/",
         "teaser": "/assets/images/header_image.jpg"
       }]

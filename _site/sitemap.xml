@@ -4,22 +4,6 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-        <loc>http://0.0.0.0:4000/security_project/dummy/</loc>
-        
-        <lastmod>2023-03-02T04:25:52+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
         <loc>http://0.0.0.0:4000/ara/ara9/</loc>
         
         <lastmod>2022-10-01T22:25:52+09:00</lastmod>
@@ -148,6 +132,22 @@
     </url>
     
     <url>
+        <loc>http://0.0.0.0:4000/security_project/crawling</loc>
+        
+        <lastmod>2021-09-07T22:25:52+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>http://0.0.0.0:4000/chat/whatidoing/</loc>
         
         <lastmod>2021-03-23T14:25:52+09:00</lastmod>
@@ -245,22 +245,6 @@
     
     <url>
         <loc>http://0.0.0.0:4000/security_project/dummy/</loc>
-        
-        <lastmod>2021-01-19T04:25:52+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://0.0.0.0:4000/chat/dummy/</loc>
         
         <lastmod>2021-01-19T04:25:52+09:00</lastmod>
         
